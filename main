@@ -1,7 +1,7 @@
 #include<stdio.h>
  void main(){
  string ecrire;
- printff("
+ printff("%s
 <html><head><title></title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -24,7 +24,7 @@
 
 
 function othau(){
-
+var ecrire = %s;
 var autho= "hkdqvjkhjq";
 var auto=document.getElementById("mdpadmin").value;
 if (autho==auto){
@@ -905,4 +905,4 @@ button.setAttribute("readonly", "1");
 
 
 </body>
-</html>");}
+</html>",ecrire);}
