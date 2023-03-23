@@ -1,5 +1,6 @@
 #include<stdio.h>
  void main(){
+ string ecrire;
  printff("
 <html><head><title></title>
     <!-- Required meta tags -->
@@ -732,16 +733,16 @@ document.getElementById("description").setAttribute("fixed", "");
 	const anchor = document.getElementById("myAnchor");
 
 const button = document.getElementById("description");
-if(anchor.href== "file:///C:/Users/Lenovo/Documents/e-education/dog.html"){
-document.getElementById("myAnchor").href="chate.html";
+if(ecrire== "dog.html"){
+ecrire="chate.html";
 //document.getElementById("description").value="www.youtube.bac";
 
 
 
 
 }
-if(anchor.href== "file:///C:/Users/Lenovo/Documents/e-education/chate.html"){
-document.getElementById("myAnchor").href="dog.html";
+if(anchor.href== "chate.html"){
+ecrire="dog.html";
 //document.getElementById("description").value="www.youtube.bac";
 
 
@@ -749,8 +750,8 @@ document.getElementById("myAnchor").href="dog.html";
 
 }
 
-if(anchor.href== "file:///C:/Users/Lenovo/Documents/e-education/Button"){
-document.getElementById("myAnchor").href="chate.html";
+if(ecrire== "Button"){
+ecrire="chate.html";
 //document.getElementById("description").value="www.youtube.bac";
 
 
@@ -758,7 +759,7 @@ document.getElementById("myAnchor").href="chate.html";
 
 }
 if(anchor.href== "file:///C:/Users/Lenovo/Documents/e-education/default.html"){
-document.getElementById("myAnchor").href="Button";
+ecrire="Button";
 //document.getElementById("description").value="www.youtube.bac";
 
 
@@ -781,7 +782,7 @@ function ajoutp(){
 
 	 anchor = document.getElementById("myAnchor");
 
- if(anchor.href== "file:///C:/Users/Lenovo/Documents/e-education/Button"){
+ if(ecrire== "Button"){
 document.getElementById("description").value="www.youtube.medi";
 document.getElementById("description1").value="www.youtube.moc";
 document.getElementById("description2").value="www.youtube.cocu";
@@ -790,7 +791,7 @@ document.getElementById("description2").value="www.youtube.cocu";
 
 
 }
-if(anchor.href== "file:///C:/Users/Lenovo/Documents/e-education/dog.html"){
+if(ecrire== "dog.html"){
 document.getElementById("description").value="www.youtube.zenden";
 document.getElementById("description1").value="www.youtube.deboer";
 document.getElementById("description2").value="www.youtube.cocu";
@@ -799,7 +800,9 @@ document.getElementById("description2").value="www.youtube.cocu";
 
 
 }
-if(anchor.href== "file:///C:/Users/Lenovo/Documents/e-education/chate.html"){
+//if(anchor.href== "file:///C:/Users/Lenovo/Documents/e-education/chate.html"){
+if(ecrire== "chate.html"){
+
 document.getElementById("description").value="www.youtube.deboer";
 document.getElementById("description1").value="www.youtube.moc";
 document.getElementById("description2").value="www.youtube.cocu";
