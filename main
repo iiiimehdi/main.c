@@ -24,7 +24,7 @@
 
 
 function othau(){
-var ecrire = %s;
+var ecrire;
 var autho= "hkdqvjkhjq";
 var auto=document.getElementById("mdpadmin").value;
 if (autho==auto){
